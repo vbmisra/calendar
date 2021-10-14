@@ -26,14 +26,71 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead">Jan 01 00</p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th class="col-2" scope="col">Hour</th>
+            <th class="col-9" scope="col">Activity</th>
+            <th scope="col">Save</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">9am</th>
+            <td id="9am-activity"></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">10am</th>
+            <td id="10am-activity"></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">11am</th>
+            <td id="11am-activity"></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">12pm</th>
+            <td id="12pm-activity"></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">1pm</th>
+            <td id="1pm-activity"></td>></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">2pm</th>
+            <td id="2pm-activity"></td>></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">3pm</th>
+            <td id="3pm-activity"></td>></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">4pm</th>
+            <td id="4pm-activity"></td>></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+          <tr>
+            <th scope="row">5pm</th>
+            <td id="5pm-activity"></td>></td>
+            <td><button type="button"><img src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/save-512.png" height="20px" width="20px"></button></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
